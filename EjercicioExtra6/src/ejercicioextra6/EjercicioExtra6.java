@@ -5,6 +5,9 @@
  */
 package ejercicioextra6;
 
+import Entidad.JuegoAhorcado;
+import Servicio.JuegoAhorcadoServicio;
+
 /**
  *
  * @author dani_
@@ -15,7 +18,21 @@ public class EjercicioExtra6 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        JuegoAhorcado jA = new JuegoAhorcado();
+        
+        JuegoAhorcadoServicio servicio = new JuegoAhorcadoServicio();
+        
+        servicio.crearJuego(jA);
+        System.out.println();
+        
+        servicio.longitud(jA);
+        System.out.println();
+        
+        servicio.buscar(jA);
+        
+        
+        
     }
     
 }

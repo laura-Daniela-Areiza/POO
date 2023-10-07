@@ -9,26 +9,26 @@ package Entidad;
  *
  * @author dani_
  */
-public class juegoAhorcado {
+public class JuegoAhorcado {
     
-    private String [] vectorPalabraBuscar;
+    private char [] vectorPalabraBuscar;
     private int letrasEncontradas;
     private int cantidadJugadas;
 
-    public juegoAhorcado() {
+    public JuegoAhorcado() {
     }
 
-    public juegoAhorcado(String[] vectorPalabraBuscar, int letrasEncontradas, int cantidadJugadas) {
+    public JuegoAhorcado(char [] vectorPalabraBuscar, int letrasEncontradas, int cantidadJugadas) {
         this.vectorPalabraBuscar = vectorPalabraBuscar;
         this.letrasEncontradas = letrasEncontradas;
         this.cantidadJugadas = cantidadJugadas;
     }
 
-    public String[] getVectorPalabraBuscar() {
+    public char [] getVectorPalabraBuscar() {
         return vectorPalabraBuscar;
     }
 
-    public void setVectorPalabraBuscar(String[] vectorPalabraBuscar) {
+    public void setVectorPalabraBuscar(char [] vectorPalabraBuscar) {
         this.vectorPalabraBuscar = vectorPalabraBuscar;
     }
 

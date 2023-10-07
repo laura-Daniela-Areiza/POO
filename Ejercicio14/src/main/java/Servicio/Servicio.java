@@ -63,6 +63,7 @@ public class Servicio {
             long cod = read.nextInt();
             
             String c = Long.toString(cod);
+            
             char[] characters = c.toCharArray();        
            
             if (c.length() == 7) {

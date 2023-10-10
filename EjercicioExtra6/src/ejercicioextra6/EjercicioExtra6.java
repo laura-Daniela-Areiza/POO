@@ -24,14 +24,11 @@ public class EjercicioExtra6 {
         JuegoAhorcadoServicio servicio = new JuegoAhorcadoServicio();
         
         servicio.crearJuego(jA);
-        System.out.println();
-        
         servicio.longitud(jA);
-        System.out.println();
-        
         servicio.buscar(jA);
+        servicio.Encontradas(jA);
         
-        
+//        System.out.println();
         
     }
     
